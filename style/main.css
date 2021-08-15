@@ -1,6 +1,9 @@
 :root{
     --vermelho:#E50914;
     --preta:#141414;
+    --branco: #FFF;
+    --laranja:#f48b36;
+    --link: #AAA;
 }
 
 *{
@@ -12,58 +15,83 @@
 /*elementos base*/
 body{
    background: var(--preta);
-   font-family: 'Arial', Times, serif;
+   font-family: Arial, Helvetica, sans-serif;
    color:white;
 }
 
+.container{
+    margin-left: 20px;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.bg-black-gradient {
+    background: linear-gradient(rgba(20,20,20,.8),rgba(20,20,20,0)100%);
+    transition: background .5s linear;
+}
+
+.bg-black {
+    background: var(--preta);
+    transition: background .5s linear;
+}
 
 header .container{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: flex-end;
+    margin-left: 0;
+    padding: 0 2%;
+    height: 70px;
 }
 
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size:40px;
+    color: var(--laranja);
+    font-family: 'ArcadeClassic', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-right: 2%;
+}
+
+.push {
+    margin-left: auto;
 }
 
 header nav a{
     text-decoration:none;
-    color:#AAA;
+    color: var(--link);
     margin-right: 10px;
 }
 
-
 header nav a:hover{
-    color:#fff;
+    color: var(--laranja);
+}
+
+header nav a:first-of-type{
+    margin-left: 15px;
 }
 
 /*filme principal*/
 .filme-principal{
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
-
     height:400px;
     background-size:cover;
- 
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    z-index: 1;
 }
-
 
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
 
 .filme-principal .titulo{
     margin-top: 15%;
@@ -71,15 +99,17 @@ header nav a:hover{
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
+.filme-principal .container{
+    width: 70%;
+}
+
 .botao{
     background-color: rgba(0,0,0,.50);
     border:none;
     color: white;
-
     padding:15px 30px;
     margin-right: 15px;
     font-size: 12px;
-
     cursor: pointer;
     transition: .3s ease all;
 }
@@ -93,15 +123,6 @@ header nav a:hover{
     margin-right: 8px;
 }
 
-
-.container{
-    margin-left: 20px;
-}
-
-.filme-principal .container{
-    width: 70%;
-}
-
 .box-filme{
     height: 100%;
     width: 100%;
@@ -109,26 +130,6 @@ header nav a:hover{
     cursor: pointer;
 }
 
-
 .carrosel-filmes{
     margin-top:5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
