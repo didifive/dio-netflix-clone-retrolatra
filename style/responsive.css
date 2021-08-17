@@ -1,18 +1,43 @@
-@media screen and (max-width:700px){
+/*  Tela Extra Pequena  - xs - máximo de 575.98px                   - Smartphones em modo retrato                     
+    Tela Pequena        - sm - mínimo de 576px, máximo de 767.98px  - Smartphones em modo paisagem
+    Tela Média          - md - mínimo de 768px, máximo de 991.98px  - Tablets
+    Tela Larga          - lg - mínimo de 992px, máximo de 1199.98px - Desktops e Notebooks
+    Tela Extra Larga    - xl - mínimo de 1200px                     - Monitores e TVs Grandes
+    Fonte: https://getbootstrap.com/docs/4.0/layout/overview/
+*/
+
+@media screen and (max-width:767.98px){
     header .container{
-    display: flex;
-    flex-direction: column;
+        font-size: 12px;
+        height: 40px;
+    }
+
+    header .logo{
+        font-size: 20px;
     }
 
     .botao{
         margin-top: 5px;
         width: 300px;
     }
-
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:768px){
+    .descricao{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:1200px){
     .descricao{
         width: 50%;
     }
+}
+
+@media screen and (max-width:1199.98px){
+.main-game{
+    font-size:14px;
+}
+.botao{
+    font-size: 12px;
 }

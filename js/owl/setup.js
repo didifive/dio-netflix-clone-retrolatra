@@ -1,24 +1,16 @@
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:false,
     responsive:{
         0:{
-            items:1
+            items:2
         },
-        600:{
-            items:3
+        768:{
+            items:6
         },
-        1000:{
-            items:5
+        1200:{
+            items:9
         }
     }
-});
-
-$(window).on('scroll', function() {
-    if ($(this).scrollTop() != 0) {
-        $("header").removeClass('bg-black-gradient').addClass('bg-black');
-      } else {
-        $("header").removeClass('bg-black').addClass('bg-black-gradient')
-    };
 });

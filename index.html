@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <!-- CSS Principal -->
     <link rel="stylesheet" href="style/main.css">
-
-    <!--Responsividade-->
+    <!-- Responsividade -->
     <link rel="stylesheet" href="style/responsive.css">
-
-    <!--Owl css - Carousel-->
+    <!-- Owl css - Carousel -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-
-    <title>RETROLATRA - A Project of Netflix Clone</title>
+    <title>RETROLATRA - Classic Retro Game Portal</title>
 </head>
 <body>
     <header class="bg-black-gradient">
         <div class="container">
             <h2 class="logo">RETROLATRA</h2>
             <nav class="first-nav">
-                <a href="#">Start</a>
-                <a href="#">Jogos</a>
-                <a href="#">Consoles</a>
-                <a href="#">Manuais</a>
+                <a id="a_inicio" href="#inicio" class="active">Início</a>
+                <a id="a_jogos" href="#jogos">Jogos</a>
+                <a id="a_consoles" href="#consoles">Consoles</a>
+                <a id="a_manuais" href="#manuais">Manuais</a>
             </nav>
             <nav class="second-nav push">
                 <a href="#"><i class="fas fa-search fa-lg"></i></a>
@@ -35,61 +31,63 @@
     </header>
 
     <main>
-        <div class="filme-principal">
+        <div id="inicio" class="main-game">
             <div class="container">
-                <h3 class="titulo">HOUSE OF CARDS</h3>
-                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+                <h3 class="titulo">SUPER MARIO BROS. 3</h3>
+                <p class="descricao">Super Mario Bros. 3 é aclamado pela crítica como um dos melhores jogos de todos os tempos. É o terceiro jogo mais vendido do NES, com mais de 17 milhões de unidades vendidas em todo o mundo.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
+                        &nbsp;&nbsp;JOGAR AGORA
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
+                        &nbsp;&nbsp;MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>
         </div>
     </main>
 
-    <div class="carrosel-filmes">
-        <div class="owl-carousel owl-theme">
+    <div id="jogos" class="container">
+        <h4>Jogos</h4>
+        <div class="carousel-games">
+            <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini1.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini2.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini3.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini4.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini5.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini6.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini7.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini8.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini9.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
+                    <img class="box-game" src="img/mini10.jpg" alt="" srcset="">
                 </div>
+            </div>
         </div>
     </div>
 
-
-
+    <!-- Scripts -->
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/5eed12a441.js" crossorigin="anonymous"></script>
     <!-- JQuery -->
@@ -97,8 +95,8 @@
     <!-- Carousel -->
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
- 
+    <!-- Retrolatra Scripts -->
+    <script src="js/header.js"></script>
 
- 
 </body>
 </html>
