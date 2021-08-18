@@ -2,14 +2,17 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Projeto desenvolvido com instruções de Felipe Aguiar na trilha de estudo do Bootcamp LocalizaLabs React Developer da Digital Innovation One">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Digital Innovation One, Bootcamp, LocalizaLabs">
+    <meta name="author" content="Luis Carlos Zancanela">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS Principal -->
     <link rel="stylesheet" href="style/main.css">
-    <!-- Responsividade -->
     <link rel="stylesheet" href="style/responsive.css">
     <!-- Owl css - Carousel -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <meta name="robots" content="noimageindex, nofollow, nosnippet">
     <title>RETROLATRA - Classic Retro Game Portal</title>
 </head>
 <body>
@@ -36,56 +39,202 @@
                 <h3 class="titulo">SUPER MARIO BROS. 3</h3>
                 <p class="descricao">Super Mario Bros. 3 é aclamado pela crítica como um dos melhores jogos de todos os tempos. É o terceiro jogo mais vendido do NES, com mais de 17 milhões de unidades vendidas em todo o mundo.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <a href="https://www.nintendo.pt/Jogos/NES/Super-Mario-Bros-3-279558.html" target="_new" role="button" class="botao">
                         <i class="fas fa-play"></i>
                         &nbsp;&nbsp;JOGAR AGORA
-                    </button>
-                    <button role="button" class="botao">
+                    </a>
+                    <a role="button" class="botao trigger_popup_fricc">
                         <i class="fas fa-info-circle"></i>
                         &nbsp;&nbsp;MAIS INFORMAÇÕES
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
     </main>
 
-    <div id="jogos" class="container">
+    <div id="jogos" class="container carousel-games">
         <h4>Jogos</h4>
-        <div class="carousel-games">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-game" src="img/mini1.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini2.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini3.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini4.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini5.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini6.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini7.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini8.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini9.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-game" src="img/mini10.jpg" alt="" srcset="">
-                </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.nintendo.pt/Jogos/NES/Super-Mario-Bros-3-279558.html" target="_new">
+                    <img class="box-game" src="img/jogos/thumb1.png" alt="Super Mario Bros. 3 - NES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://gamefaqs.gamespot.com/nes/587125-battletoads" target="_new">
+                    <img class="box-game" src="img/jogos/thumb2.png" alt="Battletoads - NES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.sega-brasil.com.br/Tectoy/Sonic_the_Hedgehog_(Mega_Drive)" target="_new">
+                    <img class="box-game" src="img/jogos/thumb3.png" alt="Sonic the hedgehog - Mega Drive" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.nintendo.pt/Jogos/NES/Ice-Climber-752113.html" target="_new">
+                    <img class="box-game" src="img/jogos/thumb4.png" alt="Ice Climber - NES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://pt.wikipedia.org/wiki/Castlevania_(jogo_eletr%C3%B4nico)" target="_new">
+                    <img class="box-game" src="img/jogos/thumb5.png" alt="Clastevania - NES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=6iZwLYh2bcs" target="_new">
+                    <img class="box-game" src="img/jogos/thumb6.png" alt="Mortal Kombat - Mega Drive" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.nintendo.pt/Jogos/NES/PAC-MAN--726036.html" target="_new">
+                    <img class="box-game" src="img/jogos/thumb7.png" alt="Pac-Man - NES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://en.wikipedia.org/wiki/Pro_Wrestling_(NES_video_game)" target="_new">
+                    <img class="box-game" src="img/jogos/thumb8.png" alt="Pac-Man - NES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=rfD6tRhYQrg" target="_new">
+                    <img class="box-game" src="img/jogos/thumb9.png" alt="Teenage Mutant Ninja Turtles - NES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://en.wikipedia.org/wiki/Mighty_Final_Fight" target="_new">
+                    <img class="box-game" src="img/jogos/thumb10.png" alt="Mighty Final Fight - NES" srcset="">
+                </a>
             </div>
         </div>
     </div>
+
+    <div id="consoles" class="container carousel-games">
+        <h4>Consoles</h4>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-atari_2600" target="_new">
+                    <img class="box-game" src="img/consoles/thumb1.png" alt="Console Atari 2600" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-nintendo_nes" target="_new">
+                    <img class="box-game" src="img/consoles/thumb2.png" alt="Console Nintendo NES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-nintendo_snes" target="_new">
+                    <img class="box-game" src="img/consoles/thumb3.png" alt="Console Super Nintendo SNES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-nintendo_n64" target="_new">
+                    <img class="box-game" src="img/consoles/thumb4.png" alt="Console Nintendo 64" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-nintendo_gamecube" target="_new">
+                    <img class="box-game" src="img/consoles/thumb5.png" alt="Console Nintendo GameCube" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-sega_dreamcast" target="_new">
+                    <img class="box-game" src="img/consoles/thumb6.png" alt="Console Sega Dreamcast " srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-sony_playstation" target="_new">
+                    <img class="box-game" src="img/consoles/thumb7.png" alt="Console Playstation" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-sony_playstation_2" target="_new">
+                    <img class="box-game" src="img/consoles/thumb8.png" alt="Console Playstation 2" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-microsoft_xbox" target="_new">
+                    <img class="box-game" src="img/consoles/thumb9.png" alt="Console Xbox" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/system-magnavox_odyssey_2" target="_new">
+                    <img class="box-game" src="img/consoles/thumb10.png" alt="Console Odyssey 2" srcset="">
+                </a>
+            </div>
+        </div>
+        <!-- Fonte: https://www.gamesdatabase.org/ -->
+    </div>
+
+    <div id="manuais" class="container carousel-games">
+        <h4>Manuais</h4>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES/Manual/formated/The_Legend_of_Zelda-_A_Link_to_the_Past_-_1992_-_Nintendo.pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb1.png" alt="Manual Zelda A Link to the Past - SNES" srcset="" onmouseover="trocaImage(this,'manuais',1,true)" onmouseout="trocaImage(this,'manuais',1,false)">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES/manual/Formated/Final_Fantasy_II_-_1991_-_Square_Co.,_Ltd..pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb2.png" alt="Manual Final Fantasy II - SNES" srcset="" onmouseover="trocaImage(this,'manuais',2,true)" onmouseout="trocaImage(this,'manuais',2,false)">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES/Manual/formated/Super_Metroid_-_1994_-_Nintendo.pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb3.png" alt="Manual Super Metroid - SNES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Donkey_Kong_Country_-_1994_-_Nintendo.pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb4.png" alt="Manual Donkey Kong Country - SNES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Street_Fighter_II_Turbo-_Hyper_Fighting_-_1993_-_Capcom_Co.,_Ltd..pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb5.png" alt="Manual Street Fighter II Turbo - SNES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Star_Fox_-_1993_-_Nintendo.pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb6.png" alt="Manual Star Fox - SNES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Secret_of_Mana_-_1993_-_Square_Co.,_Ltd..pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb7.png" alt="Manual Secret of Mana - SNES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Mega_Man_X_-_1993_-_Capcom_Co.,_Ltd..pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb8.png" alt="Manual Mega Man X - SNES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Super_Mario_World_-_1991_-_Nintendo.pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb9.png" alt="Manual Super Mario World - SNES" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Super_Mario_RPG-_Legend_of_the_Seven_Stars_-_1996_-_Nintendo.pdf" target="_new">
+                    <img class="box-game" src="img/manuais/thumb10.png" alt="Manual Super Mario RPG - SNES" srcset="">
+                </a>
+            </div>
+            <!-- Fonte: https://www.gamesdatabase.org/ -->
+        </div>
+    </div>
+
+    <footer class="footer-game">
+        <div class="container">
+            <p><spam class="logo">RETROLATRA</spam>Classic Game Retro</p>
+            <p>Projeto Clone Netflix.</p>
+            <p>Criado na trilha de estudo do Bootcamp LocalizaLabs React Developer da
+                <a href="https://digitalinnovation.one/" target="_new">Digital Innovation One</a>.
+            </p>
+            <p>Desenvolvido com instruções de <a href="https://github.com/felipeAguiarCode" target="_new">Felipe Aguiar</a>.</p>
+            <p>Fonte do projeto disponível no GitHub: </p>
+            <p>Agradecimento especial para Joéber Berlocher e Lucas Freitas pelo nome Retrólatra.</p>
+            <p><i class="fas fa-skull-crossbones"></i> Diga não à pirataria.</p>
+        </div>
+    </footer>
 
     <!-- Scripts -->
     <!-- FontAwesome -->
@@ -97,6 +246,7 @@
     <script src="js/owl/setup.js"></script>
     <!-- Retrolatra Scripts -->
     <script src="js/header.js"></script>
+    <script src="js/trocaimg.js"></script>
 
 </body>
 </html>

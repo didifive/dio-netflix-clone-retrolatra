@@ -8,23 +8,23 @@ $(window).on("scroll", function() {
   $('#a_manuais').removeClass('active');
   // Pegar o topo de cada seção
   const jogos  = ($("#jogos").offset().top - headerHeight);
-  const consoles = 3900; //($("#consoles").offset().top - headerHeight);
-  const manuais = 4000; //($("#manuais").offset().top - headerHeight);
+  const consoles = ($("#consoles").offset().top - headerHeight);
+  const manuais = ($("#manuais").offset().top - headerHeight);
   // Condição para adicionar a classe active ao link conforme a seção no topo
-  if (scrollTop >= jogos) {
+  if (scrollTop >= jogos && scrollTop < consoles) {
     $('#a_jogos').addClass('active');
-  } else if (scrollTop >= consoles) {
+  } else if (scrollTop >= consoles && scrollTop < manuais) {
     $('#a_consoles').addClass('active');
   } else if (scrollTop >= manuais) {
     $('#a_manuais').addClass('active');
   } else {
-      $('#a_inicio').addClass('active');
+    $('#a_inicio').addClass('active');
   };
 
   //Mudar fundo do header quando rolar a página
   if (scrollTop != 0) {
       $("header").removeClass('bg-black-gradient').addClass('bg-black');
     } else {
-      $("header").removeClass('bg-black').addClass('bg-black-gradient')
+      $("header").removeClass('bg-black').addClass('bg-black-gradient');
   };
 });
