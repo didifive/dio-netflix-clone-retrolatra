@@ -10,9 +10,13 @@ Link da base utilizada neste projeto: [felipeAguiarCode/netflix-clone](https://g
 
 Neste projeto foram realizadas algumas modificações e inclusões, as alterações mais importantes foram:
 * O projeto foi transformado em um portal de jogos Retro;
-* Criado o arquivo ``js/header.js`` para controlar comportamentos do header (cabeçalho); 
-* Melhorias no header (cabeçalho) para ser visualmente mais parecido com a versão de 2021 da Netflix;
-* Media Query, `@media`, do ``responsive.css`` utilizando padrões de tamanho de telas do [Bootstrap 4](https://getbootstrap.com/docs/4.0/layout/overview/);
+* Criado o arquivo ``js/header.js`` para configurar comportamentos do header (cabeçalho); 
+* Melhorias no header (cabeçalho) para ser visualmente mais parecido com a versão 2021 da Netflix;
+* Media Query, `@media`, do ``style/responsive.css`` utilizando padrões de tamanho de telas do [Bootstrap 4](https://getbootstrap.com/docs/4.0/layout/overview/);
+* Criado o rodapé da página: `footer` com configuração de CSS para estilização e responsividade;
+* Criado o ``js/trocaimg.js`` com a função `trocaImage` para trocar a imagem dos itens do carrossel quando o mouse para por cima `onmouseover`;
+
+
 
 Desenvolvido com:
 * [Visual Studio Code](https://code.visualstudio.com/) 1.59.0;
@@ -22,8 +26,8 @@ Desenvolvido com:
 
 Link do projeto para acessar online: https://hikaridesign.com.br/retrolatra
 
-Para abrir o projeto localmente é recomendado abrir o arquivo ``index.html`` com a extensão Live Server do Visual Studio Code. 
+Para abrir o projeto localmente é recomendado abrir o arquivo ``index.html`` com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do Visual Studio Code. 
 
 Agradecimento especial para as pessoas que permitiram utilizar o nome Retrolatra neste projeto:
-* [Joéber Berlocher](https://www.facebook.com/joeber.berlocher) e 
-* Lucas de Freitas - [HikariDesign](https://hikaridesign.com.br).
+* Joéber Berlocher e 
+* Lucas de Freitas - [HikariDesign](https://hikaridesign.com.br)
