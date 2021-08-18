@@ -15,6 +15,8 @@ Neste projeto foram realizadas algumas modificações e inclusões, as alteraç�
 * Media Query, `@media`, do ``style/responsive.css`` utilizando padrões de tamanho de telas do [Bootstrap 4](https://getbootstrap.com/docs/4.0/layout/overview/);
 * Criado o rodapé da página: `footer` com configuração de CSS para estilização e responsividade;
 * Criado o ``js/trocaimg.js`` com a função `trocaImage` para trocar a imagem dos itens do carrossel quando o mouse para por cima `onmouseover`;
+* Criado um pré carregador de imagens ``js/preloader.js`` para pré carregar as imagens utilizadas no efeito do `trocaImage`;
+
 
 
 
@@ -24,7 +26,7 @@ Desenvolvido com:
 * [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/);
 * [JQuery](https://jquery.com/) para métodos criados.
 
-Link do projeto para acessar online: https://hikaridesign.com.br/retrolatra
+Link do projeto para acessar online: https://5dti.tec.br/retrolatra
 
 Para abrir o projeto localmente é recomendado abrir o arquivo ``index.html`` com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do Visual Studio Code. 
 

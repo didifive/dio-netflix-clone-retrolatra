@@ -5,14 +5,16 @@
     <meta name="description" content="Projeto desenvolvido com instruções de Felipe Aguiar na trilha de estudo do Bootcamp LocalizaLabs React Developer da Digital Innovation One">
     <meta name="keywords" content="HTML, CSS, JavaScript, Digital Innovation One, Bootcamp, LocalizaLabs">
     <meta name="author" content="Luis Carlos Zancanela">
+    <meta name="robots" content="noimageindex, nofollow, nosnippet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS Principal -->
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/popup.css">
     <!-- Owl css - Carousel -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    <meta name="robots" content="noimageindex, nofollow, nosnippet">
+
     <title>RETROLATRA - Classic Retro Game Portal</title>
 </head>
 <body>
@@ -43,10 +45,15 @@
                         <i class="fas fa-play"></i>
                         &nbsp;&nbsp;JOGAR AGORA
                     </a>
-                    <a role="button" class="botao trigger_popup_fricc">
+                    <a role="button" class="botao trigger_popup">
                         <i class="fas fa-info-circle"></i>
                         &nbsp;&nbsp;MAIS INFORMAÇÕES
                     </a>
+                    <div id="popup-bg"class="popup-bg"></div>
+                    <div id="popup" class="popup">
+                        <div id="popup-close"></div>
+                        <p>TESTE</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -180,42 +187,42 @@
             </div>
             <div class="item">
                 <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES/Manual/formated/Super_Metroid_-_1994_-_Nintendo.pdf" target="_new">
-                    <img class="box-game" src="img/manuais/thumb3.png" alt="Manual Super Metroid - SNES" srcset="">
+                    <img class="box-game" src="img/manuais/thumb3.png" alt="Manual Super Metroid - SNES" srcset="" onmouseover="trocaImage(this,'manuais',3,true)" onmouseout="trocaImage(this,'manuais',3,false)">
                 </a>
             </div>
             <div class="item">
                 <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Donkey_Kong_Country_-_1994_-_Nintendo.pdf" target="_new">
-                    <img class="box-game" src="img/manuais/thumb4.png" alt="Manual Donkey Kong Country - SNES" srcset="">
+                    <img class="box-game" src="img/manuais/thumb4.png" alt="Manual Donkey Kong Country - SNES" srcset="" onmouseover="trocaImage(this,'manuais',4,true)" onmouseout="trocaImage(this,'manuais',4,false)">
                 </a>
             </div>
             <div class="item">
                 <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Street_Fighter_II_Turbo-_Hyper_Fighting_-_1993_-_Capcom_Co.,_Ltd..pdf" target="_new">
-                    <img class="box-game" src="img/manuais/thumb5.png" alt="Manual Street Fighter II Turbo - SNES" srcset="">
+                    <img class="box-game" src="img/manuais/thumb5.png" alt="Manual Street Fighter II Turbo - SNES" srcset="" onmouseover="trocaImage(this,'manuais',5,true)" onmouseout="trocaImage(this,'manuais',5,false)">
                 </a>
             </div>
             <div class="item">
                 <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Star_Fox_-_1993_-_Nintendo.pdf" target="_new">
-                    <img class="box-game" src="img/manuais/thumb6.png" alt="Manual Star Fox - SNES" srcset="">
+                    <img class="box-game" src="img/manuais/thumb6.png" alt="Manual Star Fox - SNES" srcset="" onmouseover="trocaImage(this,'manuais',6,true)" onmouseout="trocaImage(this,'manuais',6,false)">
                 </a>
             </div>
             <div class="item">
                 <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Secret_of_Mana_-_1993_-_Square_Co.,_Ltd..pdf" target="_new">
-                    <img class="box-game" src="img/manuais/thumb7.png" alt="Manual Secret of Mana - SNES" srcset="">
+                    <img class="box-game" src="img/manuais/thumb7.png" alt="Manual Secret of Mana - SNES" srcset="" onmouseover="trocaImage(this,'manuais',7,true)" onmouseout="trocaImage(this,'manuais',7,false)">
                 </a>
             </div>
             <div class="item">
                 <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Mega_Man_X_-_1993_-_Capcom_Co.,_Ltd..pdf" target="_new">
-                    <img class="box-game" src="img/manuais/thumb8.png" alt="Manual Mega Man X - SNES" srcset="">
+                    <img class="box-game" src="img/manuais/thumb8.png" alt="Manual Mega Man X - SNES" srcset="" onmouseover="trocaImage(this,'manuais',8,true)" onmouseout="trocaImage(this,'manuais',8,false)">
                 </a>
             </div>
             <div class="item">
                 <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Super_Mario_World_-_1991_-_Nintendo.pdf" target="_new">
-                    <img class="box-game" src="img/manuais/thumb9.png" alt="Manual Super Mario World - SNES" srcset="">
+                    <img class="box-game" src="img/manuais/thumb9.png" alt="Manual Super Mario World - SNES" srcset="" onmouseover="trocaImage(this,'manuais',9,true)" onmouseout="trocaImage(this,'manuais',9,false)">
                 </a>
             </div>
             <div class="item">
                 <a href="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES//Manual/formated/Super_Mario_RPG-_Legend_of_the_Seven_Stars_-_1996_-_Nintendo.pdf" target="_new">
-                    <img class="box-game" src="img/manuais/thumb10.png" alt="Manual Super Mario RPG - SNES" srcset="">
+                    <img class="box-game" src="img/manuais/thumb10.png" alt="Manual Super Mario RPG - SNES" srcset="" onmouseover="trocaImage(this,'manuais',10,true)" onmouseout="trocaImage(this,'manuais',10,false)">
                 </a>
             </div>
             <!-- Fonte: https://www.gamesdatabase.org/ -->
@@ -230,7 +237,7 @@
                 <a href="https://digitalinnovation.one/" target="_new">Digital Innovation One</a>.
             </p>
             <p>Desenvolvido com instruções de <a href="https://github.com/felipeAguiarCode" target="_new">Felipe Aguiar</a>.</p>
-            <p>Fonte do projeto disponível no GitHub: </p>
+            <p>Fonte do projeto disponível no GitHub: <a href="https://github.com/didifive/dio-netflix-clone-retrolatra" target="_new">didifive/dio-netflix-clone-retrolatra</a></p>
             <p>Agradecimento especial para Joéber Berlocher e Lucas Freitas pelo nome Retrólatra.</p>
             <p><i class="fas fa-skull-crossbones"></i> Diga não à pirataria.</p>
         </div>
@@ -246,7 +253,9 @@
     <script src="js/owl/setup.js"></script>
     <!-- Retrolatra Scripts -->
     <script src="js/header.js"></script>
+    <script src="js/preloader.js"></script>
     <script src="js/trocaimg.js"></script>
+    <script src="js/popup.js"></script>
 
 </body>
 </html>
