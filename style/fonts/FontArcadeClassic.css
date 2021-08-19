@@ -1,5 +1,5 @@
 @font-face {
     font-family: 'ArcadeClassic';
-    src: local(ArcadeClassic);    
-    src: url(style/fonts/ARCADECLASSIC.TTF);
+    src: local(ArcadeClassic),
+         url(ARCADECLASSIC.TTF);    
 }
