@@ -15,7 +15,7 @@ Neste projeto foram realizadas algumas modificações e inclusões, as alteraç�
 * Media Query, `@media`, do ``style/responsive.css`` utilizando padrões de tamanho de telas do [Bootstrap 4](https://getbootstrap.com/docs/4.0/layout/overview/);
 * Criado o rodapé da página: `footer` com configuração de CSS para estilização e responsividade;
 * Criado o ``js/trocaimg.js`` com a função `trocaImage` para trocar a imagem dos itens do carrossel no `onmouseover` (o efeito foi aplicado somente nos itens da seção de Manuais);
-* Criado um pré carregador de imagens ``js/preloader.js`` para pré carregar as imagens utilizadas no efeito do `trocaImage`;
+* Criado um pré carregador de imagens ``style/preloader.css`` para pré carregar as imagens utilizadas no efeito do `trocaImage` nos manuais;
 * Criado um popup (controlado e estilizado por ``js/popup.js`` e ``styles/popup.css``) para abrir quando o botão "Mais Informações" for clicado;
 
 Link do projeto para acessar online: https://5dti.tec.br/retrolatra
