@@ -22,6 +22,13 @@ Link do projeto para acessar online: https://5dti.tec.br/retrolatra
 
 Para abrir o projeto localmente é recomendado abrir o arquivo ``index.html`` com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do Visual Studio Code. 
 
+&nbsp;
+
+Clique abaixo para ver vídeo mostrando a responsividade e elementos:
+[![Watch the video](https://img.youtube.com/vi/-B8fdC3H4t4/maxresdefault.jpg)](https://youtu.be/-B8fdC3H4t4)
+
+&nbsp;
+
 Desenvolvido com:
 * [Visual Studio Code](https://code.visualstudio.com/) 1.59.0.
 
