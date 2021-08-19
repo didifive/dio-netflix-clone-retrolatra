@@ -27,6 +27,10 @@
     header .push {
         margin-left: 0;
     }
+
+    .main-game{
+        height: 75vh;
+    }
 }
 
 @media screen and (min-width:768px){
@@ -48,11 +52,10 @@
 @media screen and (max-width:1199.98px){
     .main-game{
         font-size:14px;
-        height: 55vw;
     }
 
     .footer-game{
-        height: 30vw;
+        height: 30vh;
         font-size:12px;
     }
 
