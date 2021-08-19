@@ -14,22 +14,22 @@ Neste projeto foram realizadas algumas modificações e inclusões, as alteraç�
 * Melhorias no header (cabeçalho) para ser visualmente mais parecido com a versão 2021 da Netflix;
 * Media Query, `@media`, do ``style/responsive.css`` utilizando padrões de tamanho de telas do [Bootstrap 4](https://getbootstrap.com/docs/4.0/layout/overview/);
 * Criado o rodapé da página: `footer` com configuração de CSS para estilização e responsividade;
-* Criado o ``js/trocaimg.js`` com a função `trocaImage` para trocar a imagem dos itens do carrossel quando o mouse para por cima `onmouseover`;
+* Criado o ``js/trocaimg.js`` com a função `trocaImage` para trocar a imagem dos itens do carrossel no `onmouseover` (o efeito foi aplicado somente nos itens da seção de Manuais);
 * Criado um pré carregador de imagens ``js/preloader.js`` para pré carregar as imagens utilizadas no efeito do `trocaImage`;
-
-
-
-
-Desenvolvido com:
-* [Visual Studio Code](https://code.visualstudio.com/) 1.59.0;
-* [Font Awesome](https://fontawesome.com/);
-* [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/);
-* [JQuery](https://jquery.com/) para métodos criados.
+* Criado um popup (controlado e estilizado por ``js/popup.js`` e ``styles/popup.css``) para abrir quando o botão "Mais Informações" for clicado;
 
 Link do projeto para acessar online: https://5dti.tec.br/retrolatra
 
 Para abrir o projeto localmente é recomendado abrir o arquivo ``index.html`` com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do Visual Studio Code. 
 
-Agradecimento especial para as pessoas que permitiram utilizar o nome Retrolatra neste projeto:
+Desenvolvido com:
+* [Visual Studio Code](https://code.visualstudio.com/) 1.59.0.
+
+Fontes externas:
+* [Font Awesome](https://fontawesome.com/);
+* [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/);
+* [JQuery](https://jquery.com/).
+
+Agradecimento especial para as pessoas que disponibilizaram o nome Retrolatra neste projeto:
 * Joéber Berlocher e 
-* Lucas de Freitas - [HikariDesign](https://hikaridesign.com.br)
+* Lucas de Freitas da [HikariDesign](https://hikaridesign.com.br)

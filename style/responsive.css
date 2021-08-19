@@ -39,6 +39,10 @@
     .descricao{
         width: 50%;
     }
+
+    .popup-close-active{
+        font-size: 1.6vw;
+    }
 }
 
 @media screen and (max-width:1199.98px){
