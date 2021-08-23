@@ -26,7 +26,7 @@ Para abrir o projeto localmente é recomendado abrir o arquivo ``index.html`` co
 &nbsp;
 
 Clique abaixo para ver vídeo mostrando a responsividade e elementos:
-[![Watch the video](https://img.youtube.com/vi/-B8fdC3H4t4/maxresdefault.jpg)](https://youtu.be/-B8fdC3H4t4)
+[![Watch the video](https://img.youtube.com/vi/DauPMoheI8U/maxresdefault.jpg)](https://youtu.be/DauPMoheI8U)
 
 &nbsp;
 
